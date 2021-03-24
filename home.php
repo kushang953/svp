@@ -103,34 +103,7 @@
 				<th>Date of Birth</th>
 			</tr>
 		</thead>
-		<?php
-			if (isset($_REQUEST['btnSearch'])) {
-				$var_srch = $_REQUEST['search'];
-				// $Q = "select * from person where city like '$name%' or cast like '%$name%'";
-				$Q = "select * from parson where city='$var_srch' or cast='$var_srch'";
-				//echo $Q."<br>";
-				//return;
- 	
-				$res = mysql_query($Q);
-				$cnt = mysql_num_rows($res);
-				if ($cnt > 0) {
-					while ($ans = mysql_fetch_array($res)) {
-						$pname = $ans['pname'];
-						$city = $ans['city'];
-						$pho = $ans['pho'];
-						$cast = $ans['cast'];
-						$subcast = $ans['subcast'];
-						$gender = $ans['gender'];
-						$qua = $ans['qua'];
-						$dob = $ans['dob'];
-	
-						
-					}	
-				} else {
-					echo "<tr><td colspan=\"8\" color=\"red\" align=\"center\">Records Not Found.....</td></tr>";
-				}
-			}
-		?>
+		
 	</table>
 </center>
 </body>
