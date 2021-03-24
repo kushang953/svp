@@ -124,16 +124,7 @@
 						$qua = $ans['qua'];
 						$dob = $ans['dob'];
 	
-						echo "<tr>";
-							echo "<td>$pname</td>";
-							echo "<td>$city</td>";
-							echo "<td>$pho</td>";
-							echo "<td>$cast</td>";
-							echo "<td>$subcast</td>";
-							echo "<td>$gender</td>";	
-							echo "<td>$qua</td>";
-							echo "<td>$dob</td>";
-						echo "</tr>";
+						
 					}	
 				} else {
 					echo "<tr><td colspan=\"8\" color=\"red\" align=\"center\">Records Not Found.....</td></tr>";
