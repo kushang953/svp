@@ -8,24 +8,7 @@
 <head>
 	<title>Home</title>
 	<style type="text/css">
-	.frm_main{
-			margin: 150px 530px;
-			border: 1px solid black;
-			width: 500px;
-			height: 150px;
-			text-align: center;
-			background-color: white;
-			border-radius: 15px;
-			box-shadow: 5px 5px 5px 5px gray;
-		}
-		*{
-			margin: 0px 0px;
-			padding: 0px 0px;
-		}
-		.hed{
-			margin-top: 10px;
-			margin-left: 50px;
-		}
+	
 		.wlc{
 			margin-top: 10px;
 			margin-left: 50px;
